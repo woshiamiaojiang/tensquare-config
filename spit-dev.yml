@@ -9,11 +9,13 @@ spring:
       database: spitdb
   redis:
     host: 52.175.71.154
+  rabbitmq:
+    host: 52.175.71.154  
 eureka:
   client:
     service-url: #Eureka客户端与Eureka服务端进行交互的地址
       defaultZone: http://127.0.0.1:6868/eureka/
   instance:
-    prefer‐ip‐address: true
+    prefer-ip-address: true
 
 
