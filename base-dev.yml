@@ -12,6 +12,8 @@ spring:
     database: MySQL
     show-sql: true
     generate-ddl: true
+  rabbitmq:
+    host: 52.175.71.154  
 eureka:
   client:
     service-url: #Eureka客户端与Eureka服务端进行交互的地址
