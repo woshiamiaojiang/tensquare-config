@@ -12,13 +12,13 @@ spring:
     database: MySQL
     show-sql: true
   redis:
-    host: 52.175.71.154
+    host: 40.83.100.28
   data:
     mongodb:
-      host: 52.175.71.154
+      host: 40.83.100.28
       database: recruitdb
   rabbitmq:
-    host: 52.175.71.154    
+    host: 40.83.100.28    
 eureka:
   client:
     service-url: #Eureka客户端与Eureka服务端进行交互的地址
