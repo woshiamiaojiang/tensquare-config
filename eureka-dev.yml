@@ -8,4 +8,4 @@ eureka:
       defaultZone: http://127.0.0.1:${server.port}/eureka/
 spring:
   rabbitmq:
-    host: 52.175.71.154
+    host: 40.83.100.28
