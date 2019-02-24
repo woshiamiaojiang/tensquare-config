@@ -6,9 +6,9 @@ spring:
   datasource:
     initialize: false
     driverClassName: com.mysql.jdbc.Driver
-    url: jdbc:mysql://40.83.100.28:3306/tensquare_base?characterEncoding=utf-8&useSSL=false
+    url: jdbc:mysql://127.0.0.1:3306/tensquare_base?characterEncoding=utf-8&useSSL=false
     username: root
-    password: 123456
+    password: root
   jpa:
     database: MySQL
     show-sql: true
