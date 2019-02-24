@@ -4,6 +4,7 @@ spring:
   application:
     name: tensquare-base #指定服务名
   datasource:
+    initialize: false
     driverClassName: com.mysql.jdbc.Driver
     url: jdbc:mysql://40.83.100.28:3306/tensquare_base?characterEncoding=utf-8&useSSL=false
     username: root
