@@ -4,11 +4,11 @@ spring:
   application:
     name: tensquare-recruit #指定服务名
   datasource:
+    initialize: false
     driverClassName: com.mysql.jdbc.Driver
     url: jdbc:mysql://13.66.200.214:3306/tensquare_recruit?characterEncoding=UTF-8&useSSL=false
     username: root
-    password: root
-    initialize: false
+    password: root    
   jpa:
     database: MySQL
     show-sql: true
