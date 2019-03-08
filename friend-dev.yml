@@ -1,6 +1,9 @@
 server:
   port: 9010
 spring:
+  cloud:
+    refresh:
+      refreshable: none
   application:
     name: tensquare-friend
   datasource:

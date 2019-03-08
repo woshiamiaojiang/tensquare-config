@@ -1,6 +1,9 @@
 server: 
   port: 9004
-spring: 
+spring:
+  cloud:
+    refresh:
+      refreshable: none
   application:  
     name: tensquare-article #指定服务名
   datasource:  

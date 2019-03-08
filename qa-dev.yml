@@ -1,6 +1,9 @@
 server: 
   port: 9003
-spring: 
+spring:
+  cloud:
+    refresh:
+      refreshable: none
   application:  
     name: tensquare-qa #指定服务名
   datasource:  
