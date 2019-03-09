@@ -8,7 +8,7 @@ spring:
     name: tensquare-base #指定服务名
   datasource:
     driverClassName: com.mysql.jdbc.Driver
-    url: jdbc:mysql://13.66.200.214:3306/tensquare_base?characterEncoding=UTF-8&useSSL=false&autoReconnect=true&failOverReadOnly=false
+    url: jdbc:mysql://127.0.0.1:3306/tensquare_base?characterEncoding=UTF-8&useSSL=false&autoReconnect=true&failOverReadOnly=false
     username: root
     password: root
   jpa:
