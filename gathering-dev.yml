@@ -5,10 +5,10 @@ spring:
     name: tensquare-gathering #指定服务名
   datasource:  
     driverClassName: com.mysql.jdbc.Driver
-    url: jdbc:mysql://13.66.200.214:3306/tensquare_gathering?characterEncoding=UTF-8&useSSL=false&autoReconnect=true&failOverReadOnly=false    username: root
+    url: jdbc:mysql://10.0.2.15:3306/tensquare_gathering?characterEncoding=UTF-8&useSSL=false&autoReconnect=true&failOverReadOnly=false    username: root
     password: root
   jpa:
     database: MySQL
     show-sql: true
   rabbitmq:
-    host: 13.66.200.214
+    host: 10.0.2.15
