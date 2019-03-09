@@ -7,7 +7,7 @@ spring:
   application:
     name: tensquare-sms
   rabbitmq:
-    host: 13.66.200.214
+    host: 10.0.2.15
 aliyun:
   sms:
     accessKeyId: LTAIxo9ZQy1tSHYL
@@ -17,6 +17,6 @@ aliyun:
 eureka:
   client:
     service-url: #Eureka客户端与Eureka服务端进行交互的地址
-      defaultZone: http://13.66.200.214:6868/eureka/
+      defaultZone: http://10.0.2.15:6868/eureka/
   instance:
     prefer-ip-address: true

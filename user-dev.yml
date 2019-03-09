@@ -1,20 +1,23 @@
 server: 
   port: 9008
-spring: 
+spring:
+  cloud:
+    refresh:
+      refreshable: none
   application:  
     name: tensquare-user #指定服务名
   datasource:  
     driverClassName: com.mysql.jdbc.Driver
-    url: jdbc:mysql://13.66.200.214:3306/tensquare_user?characterEncoding=UTF-8&useSSL=false&autoReconnect=true&failOverReadOnly=false
+    url: jdbc:mysql://10.0.2.15:3306/tensquare_user?characterEncoding=UTF-8&useSSL=false&autoReconnect=true&failOverReadOnly=false
     username: root
     password: root
   jpa: 
     database: MySQL
     show-sql: true
   redis:
-    host: 13.66.200.214
+    host: 10.0.2.15
   rabbitmq:
-    host: 13.66.200.214
+    host: 10.0.2.15
 jwt:
   config:
     key: itcast
@@ -22,6 +25,6 @@ jwt:
 eureka:
   client:
     service-url: #Eureka客户端与Eureka服务端进行交互的地址
-      defaultZone: http://13.66.200.214:6868/eureka/
+      defaultZone: http://10.0.2.15:6868/eureka/
   instance:
     prefer-ip-address: true
